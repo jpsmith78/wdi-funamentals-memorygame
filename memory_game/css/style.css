@@ -40,6 +40,10 @@ a {
 	margin: 0 20px;
 	text-decoration: none;
 	color: white;
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+	border-bottom: 2px solid #ffffff;
 }
 h1 {
 	font-weight: 400;
@@ -61,6 +65,10 @@ h2 {
 }
 .message {
 	float: right;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
 .clearfix:after {
 	visibility: hidden;
